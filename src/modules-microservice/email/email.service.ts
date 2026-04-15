@@ -45,7 +45,7 @@ export class EmailService {
         text: `Create Order Id: ${createOrderId}, food: ${foodName}`, // plain text body
         html: `
           <div>
-            <h3>Đặt hàng thành công</h3>          
+            <h3>Chúc Mừng ${fullName} Đã Đặt hàng thành công</h3>          
             <p>Đơn hàng mã: ${createOrderId}</p>
             <p>Sản phẩm: ${foodName}</p>
             <p>${data.response}</p>
